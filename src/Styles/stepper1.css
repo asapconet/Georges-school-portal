@@ -48,6 +48,10 @@
   top: 5rem;
   left: 7rem;
 }
+
+.play--items > figure > img:hover {
+  width: 10rem;
+}
 .play--items {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -78,4 +82,9 @@
   display: flex;
   gap: 1rem;
   width: 12rem;
+}
+
+.play--items > text > button:hover {
+  color: #0ac10a;
+  background-color: white;
 }

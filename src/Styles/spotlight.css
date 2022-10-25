@@ -1,0 +1,69 @@
+h1 {
+  color: #0ac10a;
+  margin-bottom: 5rem;
+  font-weight: 700;
+}
+.spotlight--container {
+  background-color: #5edb5e1c;
+  padding: 4rem 10rem 5rem 10rem;
+  margin-top: 13rem;
+}
+
+.student {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.student > figure {
+  display: flex;
+  width: 9rem;
+  height: 7rem;
+  border-radius: 50%;
+  background-color: #24cd2437;
+  padding: 1rem;
+}
+
+.student > figure > img {
+  width: 6rem;
+  border-radius: 50%;
+}
+.student > header {
+  text-align: right;
+  width: 30rem;
+}
+
+.student > p {
+  text-align: left;
+  line-height: 2.4rem;
+}
+
+.divider {
+  height: 0.7rem;
+  margin: 5rem 0 5rem 0;
+  background-color: #045f04e7;
+  width: 80rem;
+}
+
+.social--title > div {
+  position: relative;
+  bottom: 2.8rem;
+  left: 30rem;
+  font-size: 1.3rem;
+  color: gray;
+}
+.social--title > div > span {
+  margin-right: 2rem;
+}
+
+.social--title > h2 {
+  font-weight: 700;
+  color: #0ac10a;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.gallery > img {
+  width: 19rem;
+  gap: 1rem;
+}

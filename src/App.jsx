@@ -4,6 +4,7 @@ import "./Styles/App.css";
 import Header from "./components/header";
 import SchoolLogo from "./assets/images/schoolLogo.png";
 import Stepper1 from "./Pages/stepper1";
+import Events from "./Pages/events";
 
 function App() {
   return (
@@ -71,6 +72,7 @@ function App() {
         </div>
       </div>
       <Stepper1 />
+      <Events />
     </>
   );
 }

@@ -1,0 +1,75 @@
+h1 {
+  color: #0ac10a;
+  margin-bottom: 5rem;
+}
+.event--container {
+  margin: 5rem 10rem 5rem 10rem;
+}
+.envent--content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.content--one {
+  align-items: center;
+  text-align: left;
+  height: 9.3rem;
+}
+.content--one > span > h5 {
+  margin: 0rem;
+}
+
+.content--one > span > h2 {
+  font-size: 1.2rem;
+  color: #0ac10a;
+}
+.content--one > span > p {
+  font-size: 0.82rem;
+}
+
+.content--one > button {
+  float: left;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0ac10a;
+  border: white 1px;
+  border-style: solid;
+  border-radius: 0.6rem;
+  background-color: #0ac10a2d;
+  padding: 2rem 0 0 0;
+  height: 9rem;
+  width: 9rem;
+  margin-right: 0.4rem;
+}
+
+.content--one > button:hover {
+  background-color: green;
+  color: white;
+}
+.content--one > button > p {
+  font-size: 3rem;
+  margin-top: -0.05rem;
+}
+
+.content--two {
+  position: relative;
+  top: 14rem;
+  left: 15rem;
+}
+
+.content--two > button {
+  padding: 1rem;
+  width: 9rem;
+  color: #0ac10a;
+  border: #0ac10a 1.5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-style: solid;
+  border-radius: 0.2rem;
+  background-color: transparent;
+}
+
+.content--two > button:hover {
+  color: white;
+  background-color: green;
+}
