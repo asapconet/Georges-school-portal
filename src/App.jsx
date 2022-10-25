@@ -1,8 +1,9 @@
 import * as React from "react";
-import "./App.css";
+import "./Styles/App.css";
 // import { Icons } from "./assets/icons";
 import Header from "./components/header";
 import SchoolLogo from "./assets/images/schoolLogo.png";
+import Stepper1 from "./Pages/stepper1";
 
 function App() {
   return (
@@ -69,6 +70,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Stepper1 />
     </>
   );
 }

@@ -43,7 +43,7 @@ li {
 
 .landing {
   background-image: linear-gradient(to bottom, #c9d3c7ec, #2cb32c85),
-    url(./assets/images/schoolImg.jpg);
+    url(../assets/images/schoolImg.jpg);
   background-size: 100%;
   text-align: left;
   height: 70vh;

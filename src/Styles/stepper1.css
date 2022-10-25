@@ -1,0 +1,81 @@
+.container {
+  margin: 5rem 10rem 5rem 12rem;
+  text-align: left;
+}
+
+.container--stuffs {
+  line-height: 1.8rem;
+  justify-items: auto;
+}
+.container--stuffs > img {
+  float: left;
+  height: 23rem;
+  width: 18rem;
+  padding-right: 2%;
+}
+
+.container--stuffs > h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #0ac10a;
+}
+
+.container--stuffs > button {
+  background-color: transparent;
+  border: none;
+  color: #0ac10a;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.container--stuffs > figcaption {
+  text-align: left;
+  color: #0ac10a;
+  font-weight: 600;
+}
+
+/* PLAYER SECTION */
+
+.play--sec {
+  margin-bottom: 5rem;
+  height: 43vh;
+  background-image: linear-gradient(to right, #cae7c649 15%, rgb(8, 190, 8) 95%),
+    url(../assets/images/schoolImg.jpg);
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+.play--items > figure > img {
+  position: relative;
+  top: 5rem;
+  left: 7rem;
+}
+.play--items {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: left;
+  color: white;
+}
+.play--items > text {
+  position: relative;
+  top: 5rem;
+}
+
+.play--items > text > h3 {
+  font-weight: 200;
+  margin-bottom: -1rem;
+}
+.play--items > text > p {
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+}
+.play--items > text > button {
+  font-weight: 400;
+  padding: 0.8rem;
+  color: white;
+  border: white 2px;
+  border-style: solid;
+  border-radius: 0.3rem;
+  background-color: transparent;
+  display: flex;
+  gap: 1rem;
+  width: 12rem;
+}
