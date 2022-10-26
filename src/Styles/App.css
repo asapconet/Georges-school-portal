@@ -11,7 +11,9 @@
   overflow-x: hidden;
   /* -webkit-text-size-adjust: 100%; */
 }
-
+.logo--cont {
+  margin-bottom: 1rem;
+}
 h1 > img {
   width: 25rem;
 }
@@ -44,24 +46,24 @@ li {
 }
 
 .landing {
-  background-image: linear-gradient(to bottom, #c9d3c7ec, #2cb32c85),
+  background-image: linear-gradient(to bottom, #9cd7906a, #00b8539e),
     url(../assets/images/schoolImg.jpg);
   background-size: 100%;
   text-align: left;
-  height: 70vh;
+  height: 65vh;
   width: 100%;
 }
 .landing--content {
   position: relative;
-  top: 5rem;
-  margin: 0 4rem 5.5rem 4rem;
+  top: 4rem;
+  margin: 0 4rem 5rem 4rem;
 }
 .landing--content > h4 {
   color: white;
 }
 .landing--content > h1 {
-  font-size: 3.5rem;
-  font-weight: 800;
+  font-size: 3rem;
+  font-weight: 900;
   color: white;
   line-height: 100%;
   margin-bottom: 2.3rem;
@@ -78,10 +80,18 @@ li {
   text-transform: uppercase;
 }
 
+.gen-btn:hover {
+  color: orange;
+}
+
 .slidders {
   display: grid;
   grid-template-columns: auto auto auto auto;
   border-top: solid 1.5px white;
+}
+
+.slidders > div > p {
+  color: white;
 }
 
 .slidders > div {
@@ -89,7 +99,7 @@ li {
   padding: 0 1rem 0 1rem;
   margin-top: 1.8rem;
   margin-left: 0.8rem;
-  height: 13rem;
+  height: 11rem;
 }
 .slidders > div > h4 {
   margin: 0;

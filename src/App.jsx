@@ -12,7 +12,7 @@ function App() {
     <>
       <Header />
       <div>
-        <h1>
+        <h1 className="logo--cont">
           <img src={SchoolLogo} alt="school Logo" />
         </h1>
         <nav>
@@ -44,6 +44,12 @@ function App() {
                   UofA of Nigeria,
                 </a>
               </h4>
+              <p>
+                {" "}
+                I warmly welcome you to the University of Abuja, the UofA of
+                Nigeria, the only Federal University in the heart (FCT) of
+                Nigeria, !{" "}
+              </p>
             </div>
             <div className="col-span-1 uppercase">
               <h4>
@@ -52,6 +58,25 @@ function App() {
                   UofA of Nigeria,{" "}
                 </a>
               </h4>
+              <p>
+                {" "}
+                I warmly welcome you to the University of Abuja, the UofA of
+                Nigeria, !{" "}
+              </p>
+            </div>
+            <div className="col-span-1 uppercase">
+              <h4>
+                <a href="#">
+                  Lorem I warmly welcome you to the University of Abuja, the
+                  Nigeria, the only Federal University in the heart (FCT) of
+                  UofA of Nigeria,{" "}
+                </a>
+              </h4>
+              <p>
+                {" "}
+                I warmly welcome you to the University of Abuja, the UofA of
+                Nigeria, !{" "}
+              </p>
             </div>
             <div className="col-span-1 uppercase">
               <h4>
@@ -60,14 +85,12 @@ function App() {
                   UofA of Nigeria,{" "}
                 </a>
               </h4>
-            </div>
-            <div className="col-span-1 uppercase">
-              <h4>
-                <a href="#">
-                  Lorem I warmly welcome you to the University of Abuja, the
-                  UofA of Nigeria,{" "}
-                </a>
-              </h4>
+              <p>
+                {" "}
+                I warmly welcome you to the University of Abuja, the UofA of
+                Nigeria, the only Federal University in the heart (FCT) of
+                Nigeria, !{" "}
+              </p>
             </div>
           </div>
         </div>
