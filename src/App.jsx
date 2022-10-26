@@ -5,6 +5,7 @@ import Header from "./components/header";
 import SchoolLogo from "./assets/images/schoolLogo.png";
 import Stepper1 from "./Pages/stepper1";
 import Events from "./Pages/events";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
       </div>
       <div className="landing">
         <div className="landing--content">
-          <h5>The University for National Unity</h5>
+          <h4>The University for National Unity</h4>
           <h1>
             Welcome to University of <br /> Abuja
           </h1>
@@ -73,6 +74,7 @@ function App() {
       </div>
       <Stepper1 />
       <Events />
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,78 @@
+.foot--container {
+  display: grid;
+  grid-template-columns: 30% 30% 20%20%;
+  background-color: #00b853;
+  color: white;
+  padding: 3rem 0 2rem 9rem;
+  text-align: left;
+}
+
+.foot--container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 0.5rem;
+}
+
+.foot--container > div > a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.85rem;
+}
+.foot--container > div > a:hover {
+  text-decoration: underline;
+}
+
+.container--one {
+  text-align: left;
+}
+.container--one > figure {
+  margin-left: -0.6rem;
+  text-align: left;
+}
+.container--one > figure > img {
+  width: 70%;
+}
+.container--one > span {
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
+.container--one > span > a {
+  text-decoration: none;
+  color: white;
+}
+
+.container--one > span > a:hover {
+  text-decoration: underline;
+}
+
+.container--one > button {
+  width: 30%;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  border-style: none;
+  color: #00b853;
+  font-weight: 600;
+}
+
+.container--one > button:hover {
+  color: white;
+  background-color: #309f30e0;
+  border: white 1.5px;
+  border-style: solid;
+}
+.footer--bottom {
+  background-color: #00b853;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 10rem 3rem 9rem;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.footer--bottom > span {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.5rem;
+}

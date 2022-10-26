@@ -58,20 +58,20 @@
   text-align: left;
   color: white;
 }
-.play--items > text {
+.play--items > span {
   position: relative;
   top: 5rem;
 }
 
-.play--items > text > h3 {
+.play--items > span > h3 {
   font-weight: 200;
   margin-bottom: -1rem;
 }
-.play--items > text > p {
+.play--items > span > p {
   font-size: 0.8rem;
   letter-spacing: 1.5px;
 }
-.play--items > text > button {
+.play--items > span > button {
   font-weight: 400;
   padding: 0.8rem;
   color: white;
@@ -84,7 +84,7 @@
   width: 12rem;
 }
 
-.play--items > text > button:hover {
+.play--items > span > button:hover {
   color: #0ac10a;
   background-color: white;
 }

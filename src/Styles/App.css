@@ -4,10 +4,11 @@
 }
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  transition: .9s;
+  transition: 0.9s;
+  overflow-x: hidden;
   /* -webkit-text-size-adjust: 100%; */
 }
 
@@ -27,7 +28,7 @@ li {
   justify-content: end;
   padding: 1rem;
   color: white;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .home--nav {
   display: flex;
@@ -37,7 +38,7 @@ li {
   justify-content: center;
   padding: 1rem;
   color: black;
-  font-size: 0.83rem;
+  font-size: 1rem;
   margin-bottom: -1.1%;
   font-weight: 600;
 }
@@ -49,25 +50,25 @@ li {
   text-align: left;
   height: 70vh;
   width: 100%;
-  /* padding-left: 2rem; */
 }
 .landing--content {
   position: relative;
   top: 5rem;
   margin: 0 4rem 5.5rem 4rem;
 }
-.landing--content > h5 {
+.landing--content > h4 {
   color: white;
 }
 .landing--content > h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 800;
   color: white;
   line-height: 100%;
+  margin-bottom: 2.3rem;
 }
 .gen-btn {
   padding: 1rem;
-  margin-bottom: 0.9rem;
+  margin-bottom: 1.4rem;
   background-color: transparent;
   border-color: white;
   border-style: solid;

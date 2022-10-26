@@ -38,7 +38,7 @@ const Stepper1 = () => {
           <figure>
             <img src={player} alt="play btn" />
           </figure>
-          <text>
+          <span>
             <h3>Explore</h3>
             <h2>The University of Abuja ( UNIABUJA )</h2>
             <p>
@@ -48,7 +48,7 @@ const Stepper1 = () => {
             <button>
               Explore UNIABUJA <FaArrowRight />
             </button>
-          </text>
+          </span>
         </div>
       </div>
     </>
